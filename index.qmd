@@ -1,0 +1,20 @@
+---
+title: "How AI Represents Cultural Values Across 66 Countries"
+author: Yilin Xu
+date: 2026-03-13
+format: html
+---
+
+{{< include blog_part1_motivation.md >}}
+
+{{< include blog_part2_ground_truth.md >}}
+
+{{< include blog_part3_llm_experiment.md >}}
+
+{{< include blog_part4_llm_representation_performance.md >}}
+
+{{< include blog_part5_llm_representation_error.md >}}
+
+{{< include blog_part6_conclusion.md >}}
+
+Note: Given this is involved part of an ongoing research project, I do not publish it online
