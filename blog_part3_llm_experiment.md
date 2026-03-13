@@ -290,6 +290,7 @@ Instructions:
 
 1. Decide if you need to call a tool before answering.
    - If yes, output exactly one JSON with:
+   {% raw %}
    {{
      "tool": "WebSearch",
      "parameters": {{
@@ -297,6 +298,7 @@ Instructions:
          "num_results": {num_search_results}
      }}
    }}
+   {% endraw %}
    - Otherwise, respond "NO_TOOL".
 
 2. Once tool results are available (or if no tool needed), provide the survey answers
